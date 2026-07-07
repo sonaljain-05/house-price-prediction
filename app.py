@@ -2,14 +2,20 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import joblib
-
+import base64
 # ==========================
 # Load Saved Files
 # ==========================
 
-import base64
 
-import base64
+
+
+st.set_page_config(
+    page_title="House Price Prediction",
+    page_icon="🏠",
+    layout="centered"
+)
+
 
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image:
@@ -33,12 +39,6 @@ def add_bg_from_local(image_file):
 add_bg_from_local("background.png")
 
 
-# MUST be the first Streamlit command
-st.set_page_config(
-    page_title="House Price Prediction",
-    page_icon="🏠",
-    layout="centered"
-)
 
 # Load Saved Files
 model = joblib.load("house_price_model.pkl")
