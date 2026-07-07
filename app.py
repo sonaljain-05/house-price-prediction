@@ -7,10 +7,7 @@ import joblib
 # Load Saved Files
 # ==========================
 
-import streamlit as st
-import pandas as pd
-import numpy as np
-import joblib
+
 
 # MUST be the first Streamlit command
 st.set_page_config(
@@ -132,14 +129,20 @@ st.markdown("""
 <style>
 div[data-testid="stButton"] > button {
     width: 100%;
-    height: 70px;
-    font-size: 24px;
+    height: 60px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 22px;
     font-weight: bold;
+    border-radius: 10px;
+    border: none;
+}
+
+div[data-testid="stButton"] > button:hover {
+    background-color: #45a049;
 }
 </style>
 """, unsafe_allow_html=True)
-
-
 
 
 
