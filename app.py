@@ -8,7 +8,7 @@ import joblib
 # ==========================
 
 import base64
-import streamlit as st
+
 
 # Background image function
 def add_bg_from_local(image_file):
@@ -45,21 +45,7 @@ model = joblib.load("house_price_model.pkl")
 scaler = joblib.load("scaler.pkl")
 target_encoder = joblib.load("target_encoder.pkl")
 
-# CSS
-st.markdown("""
-<style>
-.stApp {
-    background: linear-gradient(to right,#086E82,#243B55,#141E30);
-    color:white;
-}
 
-h1,h2,h3,h4,label {
-    color:white !important;
-}
-</style>
-""", unsafe_allow_html=True)
-
-st.title("🏠 House Price Prediction")
 
 
 
