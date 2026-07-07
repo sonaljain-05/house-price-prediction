@@ -1,0 +1,14 @@
+ipykernel
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+lightgbm
+catboost
+xgboost
+statsmodels
+openpyxl
+imbalanced-learn
+category_encoders
+target_encoder
