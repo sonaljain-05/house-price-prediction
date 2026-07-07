@@ -52,6 +52,25 @@ add_bg_from_local("background.png")
 
 
 
+st.set_page_config(
+    page_title="House Price Prediction",
+    page_icon="🏠",
+    layout="centered"
+)
+st.markdown("""
+<style>
+h1{
+    color: #0B6E4F !important;   /* Dark Green */
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
+
+
 # Load Saved Files
 model = joblib.load("house_price_model.pkl")
 scaler = joblib.load("scaler.pkl")
