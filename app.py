@@ -62,7 +62,7 @@ with col1:
         format="%.6f"
     )
 
-    address = st.selectbox("Address", [ ["Mumbai","Pune","Bangalore","Chennai","Hyderabad","Bhopal",
+    address = st.selectbox("Address",  ["Mumbai","Pune","Bangalore","Chennai","Hyderabad","Bhopal",
                                        "Kolkata","Ahmedabad","Jaipur","Surat","Lucknow","Kanpur",
                                        "Nagpur","Indore","Thane","Bhubaneswar","Visakhapatnam","Patna",
                                        "Vadodara","Ghaziabad","Coimbatore","Agra","Nashik","Faridabad",
@@ -77,7 +77,7 @@ with col1:
                                        "Sikar","Ratlam","Haldwani","Rohtak","Pali","Sangli","Satara","Bharuch","Hosur","Kollam",
                                        "Kharagpur","Nagercoil","Ongole","Pondicherry","Tiruvannamalai","Karimnagar","Kakinada","Belgaum","Mangalore",
                                        "Shimoga","Dindigul","Erode","Kozhikode","Tiruppur","Salem","Vellore",   "Alappuzha","Kollam","Thrissur",
-                                       "Kannur","Kottayam","Palakkad","Malappuram","Wayanad","Idukki","Pathanamthitta","Kasargod"])  ])
+                                       "Kannur","Kottayam","Palakkad","Malappuram","Wayanad","Idukki","Pathanamthitta","Kasargod"]) 
 
     posted_by = st.selectbox(
         "Posted By",
@@ -128,23 +128,16 @@ with col2:
 # Prediction
 # ==========================
 
-
 st.markdown("""
 <style>
-.stButton>button{
-    background-color:#4CAF50;
-    color:white;
-    border-radius:10px;
-    font-size:18px;
-    font-weight:bold;
-    padding:10px 20px;
-    width:100%;
-}
-.stButton>button:hover{
-    background-color:#45a049;
+.stButton > button {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
 }
 </style>
 """, unsafe_allow_html=True)
+
 
 
 
