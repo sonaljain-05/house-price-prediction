@@ -31,7 +31,7 @@ def add_bg_from_local(image_file):
     )
 
 # Call the function
-add_bg_from_local("background/house_bg.png")
+add_bg_from_local("background.png")
 
 # MUST be the first Streamlit command
 st.set_page_config(
