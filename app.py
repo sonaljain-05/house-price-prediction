@@ -15,6 +15,18 @@ st.set_page_config(
     page_icon="🏠",
     layout="centered"
 )
+st.markdown("""
+<style>
+h1{
+    color: #0B6E4F !important;   /* Dark Green */
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 
 
 def add_bg_from_local(image_file):
