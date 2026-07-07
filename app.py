@@ -62,7 +62,7 @@ with col1:
         format="%.6f"
     )
 
-    address = st.selectbox("Address", ["Mumbai"])
+    address = st.selectbox("Address", ["Mumbai","Pune","Bangalore","Chennai","Hyderabad"])
 
     posted_by = st.selectbox(
         "Posted By",
