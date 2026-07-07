@@ -36,7 +36,7 @@ def add_bg_from_local(image_file):
 add_bg_from_local("background.png")
 
 
-
+st.title("🏠 House Price Prediction")
 st.set_page_config(
     page_title="House Price Prediction",
     page_icon="🏠",
