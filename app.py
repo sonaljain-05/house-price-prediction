@@ -62,7 +62,22 @@ with col1:
         format="%.6f"
     )
 
-    address = st.selectbox("Address", ["Mumbai","Pune","Bangalore","Chennai","Hyderabad"])
+    address = st.selectbox("Address", [ ["Mumbai","Pune","Bangalore","Chennai","Hyderabad","Bhopal",
+                                       "Kolkata","Ahmedabad","Jaipur","Surat","Lucknow","Kanpur",
+                                       "Nagpur","Indore","Thane","Bhubaneswar","Visakhapatnam","Patna",
+                                       "Vadodara","Ghaziabad","Coimbatore","Agra","Nashik","Faridabad",
+                                       
+                                       "Meerut","Rajkot","Kochi","Jabalpur","Vijayawada","Madurai","Gwalior",
+                                       "Chandigarh","Jodhpur","Raipur","Ludhiana","Dehradun","Amritsar","Varanasi",
+                                       "Salem","Tiruchirappalli","Dhanbad","Jamshedpur","Bikaner","Udaipur","Gorakhpur",
+                                       "Aligarh","Jalandhar","Bhubaneshwar","Mysore","Tirupati","Guntur","Warangal","Nellore",
+                                       "Kolhapur","Ajmer","Shimla","Ranchi","Siliguri","Jammu","Haridwar","Kota","Bhilai",
+                                       "Gulbarga","Tirunelveli","Bardhaman","Panaji","Durgapur","Nanded","Jamnagar","Ujjain",
+                                       "Jhansi","Kakinada","Akola","Nizamabad","Bathinda","Kurnool","Anantapur","Bhavnagar",
+                                       "Sikar","Ratlam","Haldwani","Rohtak","Pali","Sangli","Satara","Bharuch","Hosur","Kollam",
+                                       "Kharagpur","Nagercoil","Ongole","Pondicherry","Tiruvannamalai","Karimnagar","Kakinada","Belgaum","Mangalore",
+                                       "Shimoga","Dindigul","Erode","Kozhikode","Tiruppur","Salem","Vellore",   "Alappuzha","Kollam","Thrissur",
+                                       "Kannur","Kottayam","Palakkad","Malappuram","Wayanad","Idukki","Pathanamthitta","Kasargod"])  ])
 
     posted_by = st.selectbox(
         "Posted By",
