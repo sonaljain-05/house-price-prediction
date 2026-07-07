@@ -130,10 +130,11 @@ with col2:
 
 st.markdown("""
 <style>
-.stButton > button {
+div[data-testid="stButton"] > button {
     width: 100%;
-    height: 60px;
-    font-size: 22px;
+    height: 70px;
+    font-size: 24px;
+    font-weight: bold;
 }
 </style>
 """, unsafe_allow_html=True)
