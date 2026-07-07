@@ -9,8 +9,8 @@ import joblib
 
 import base64
 
+import base64
 
-# Background image function
 def add_bg_from_local(image_file):
     with open(image_file, "rb") as image:
         encoded = base64.b64encode(image.read()).decode()
@@ -19,7 +19,7 @@ def add_bg_from_local(image_file):
         f"""
         <style>
         .stApp {{
-            background-image: url("data:background/png;base64,{encoded}");
+            background-image: url("data:image/png;base64,{encoded}");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -30,8 +30,8 @@ def add_bg_from_local(image_file):
         unsafe_allow_html=True
     )
 
-# Call the function
 add_bg_from_local("background.png")
+
 
 # MUST be the first Streamlit command
 st.set_page_config(
