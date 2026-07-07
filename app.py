@@ -127,30 +127,25 @@ with col2:
 
 st.markdown("""
 <style>
-div[data-testid="stButton"] > button {
-    width: 100%;
-    height: 60px;
-    background-color: #4CAF50;
-    color: white;
+div.stButton > button {
+    display: block;
+    margin: 20px auto;
+    width: 450px;      /* Button ki length */
+    height: 65px;      /* Button ki height */
     font-size: 22px;
     font-weight: bold;
-    border-radius: 10px;
+    background: #4CAF50;
+    color: white;
     border: none;
+    border-radius: 12px;
 }
 
-div[data-testid="stButton"] > button:hover {
-    background-color: #45a049;
+div.stButton > button:hover {
+    background: #45a049;
 }
 </style>
 """, unsafe_allow_html=True)
-st.markdown("""
-<style>
-div[data-testid="stButton"] button {
-    width: 100%;
-    height: 70px;
-}
-</style>
-""", unsafe_allow_html=True)
+
 
 
 
