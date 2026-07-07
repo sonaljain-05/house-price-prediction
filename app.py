@@ -143,6 +143,14 @@ div[data-testid="stButton"] > button:hover {
 }
 </style>
 """, unsafe_allow_html=True)
+st.markdown("""
+<style>
+div[data-testid="stButton"] button {
+    width: 100%;
+    height: 70px;
+}
+</style>
+""", unsafe_allow_html=True)
 
 
 
