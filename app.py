@@ -99,7 +99,7 @@ background:#2E7D32;
 # -----------------------------
 with st.sidebar:
 
-    st.image(r"E:\data science\capstone 1\background.png")
+    st.image("background.png")
     
 
     st.markdown("## 🏠 House Price Predictor")
