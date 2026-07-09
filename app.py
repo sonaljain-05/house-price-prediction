@@ -123,7 +123,7 @@ unsafe_allow_html=True
 )
 
 st.markdown(
-"<div class='subtitle'>AI Powered Real Estate Price Estimator</div>",
+"<div class='subtitle'> Price Estimator</div>",
 unsafe_allow_html=True)
 st.markdown("""
 <style>
